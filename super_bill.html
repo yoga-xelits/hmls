@@ -1,0 +1,472 @@
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Super Bill</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+        
+        .s1 {
+            color: #4DABDD;
+            font-family: "Segoe UI", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 42.5pt;
+        }
+        
+        .s3 {
+            color: #4DABDD;
+            font-family: "Segoe UI", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+        
+        .s4 {
+            color: #FFF;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 13.5pt;
+        }
+        
+        .s5 {
+            color: #FFF;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 21.5pt;
+        }
+        
+        .h2 {
+            color: #FFF;
+            font-family: Montserrat-SemiBold, serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 21.5pt;
+        }
+        
+        h3 {
+            color: #FFF;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 17pt;
+        }
+        
+        .s6 {
+            color: #231F20;
+            font-family: Montserrat-Light, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 16.5pt;
+        }
+        
+        .h4,
+        h4 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+        
+        .p,
+        p {
+            color: #231F20;
+            font-family: Montserrat-Light, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+            margin: 0pt;
+        }
+        
+        .a {
+            color: #231F20;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 11.5pt;
+        }
+        
+        .s7 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9.5pt;
+        }
+        
+        .s8 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9.5pt;
+        }
+        
+        .s9 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+        
+        .s10 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9.5pt;
+            vertical-align: 1pt;
+        }
+        
+        .s11 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9.5pt;
+            vertical-align: 3pt;
+        }
+        
+        .s12 {
+            color: #231F20;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 10pt;
+            vertical-align: 2pt;
+        }
+        
+        .s13 {
+            color: #FFF;
+            font-family: Montserrat-SemiBold, serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 22pt;
+        }
+        
+        .s14 {
+            color: #FFF;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 22pt;
+        }
+        
+        .h1 {
+            color: #FFF;
+            font-family: Montserrat-SemiBold, serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 22pt;
+        }
+        
+        .s15 {
+            color: #231F20;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 18.5pt;
+            padding-bottom: 8px;
+            border-bottom: 8px solid #29abe2;
+        }
+        
+        .s16 {
+            color: #0089FF;
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 13pt;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        table,
+        tbody {
+            vertical-align: top;
+            overflow: visible;
+        }
+        
+        p {
+            padding-top: 15pt;
+            padding-left: 5pt;
+            text-indent: 0pt;
+            text-align: left;
+        }
+        
+        .border_design {
+            border: 5px solid #61ADD8;
+            margin: 15px auto;
+            max-width: 900px;
+            padding: 60px;
+        }
+        
+        .s1 {
+            color: #4DACDD;
+        }
+        
+        .header_boxs {
+            display: flex;
+        }
+        
+        .oneheader_box {
+            padding: 20px;
+        }
+        
+        .twoheader_box,
+        .threeheader_box {
+            padding: 0px 20px;
+        }
+        
+        .header_boxs h2 {
+            padding: 5px 10px;
+            background: #29abe2;
+            display: inline-block;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        
+        .SUPERBILL_boxs {
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+        
+        .SUPERBILL_boxs h3,
+        .SUPERBILL_boxs h4 {
+            padding: 5px 10px;
+            background: #29abe2;
+            display: inline-block;
+            color: #fff;
+            margin-bottom: 10px;
+            margin-right: 20px;
+        }
+        
+        .SUPERBILL_boxs h4 {
+            padding: 8px 10px;
+            color: #f4f4f4;
+        }
+        
+        .table_lines {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #c9c9c9;
+        }
+        
+        .table_lines td {
+            border-bottom: 1px solid #c9c9c9;
+        }
+        
+        .table_lines td p {
+            margin: 0px;
+            padding: 15px 20px;
+        }
+        
+        .table_lines td:first-child {
+            border-right: 1px solid #c9c9c9;
+        }
+        
+        .table_lines td:last-child {
+            padding-left: 50px;
+        }
+        
+        .table_lines.all_lines td {
+            border-right: 1px solid #c9c9c9;
+        }
+        
+        .footer_design p {
+            text-align: center !important;
+            padding: 5px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,500i,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="border_design">
+        <div class="SUPERBILL_boxs">
+            <h3>SUPERBILL</h3>
+            <h4>28/11/2019</h4>
+        </div>
+        <table style="" class="table_lines" cellspacing="0">
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Client Name: <span th:text="${invoiceDTO.clientName}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Provider Name: <span th:text="${invoiceDTO.providername}"></span></p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p style=""><a href="mailto:usermail@email.com" class="s8" target="_blank">Client Email: <span th:text="${invoiceDTO.clientEmail}"></span></a></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p style=""><a href="mailto:usermail@email.com" class="s8" target="_blank">Provider Email: <span th:text="${invoiceDTO.provideremail}"></span></a></p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Address: <span th:text="${invoiceDTO.address}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s9" style="">Tax ID#: <span th:text="${invoiceDTO.taxId}"></span></p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Phone: <span th:text="${invoiceDTO.phone}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">NPI: <span th:text="${invoiceDTO.npi}"></span></p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s11" style="">DOB: <span class="s7" th:text="${invoiceDTO.clientDob}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s12" style="">License #: <span class="s7" th:text="${invoiceDTO.license}"></span></p>
+                </td>
+            </tr>
+            <!-- <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Referring provider Name: Referring provider</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Referring Provider NPI: <span class="s9" th:text="${invoiceDTO.}"></span></p>
+                </td>
+            </tr> -->
+        </table>
+
+        <div class="SUPERBILL_boxs">
+            <h3>DIAGNOSIS
+            </h3>
+        </div>
+        <table class="table_lines" cellspacing="0">
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+
+                    <p class="s7" style="">ICD-10</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+
+                    <p class="s7" style="">ICD-10 Description</p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.diagnosesId}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.diagnosesDescription}"></span></p>
+                </td>
+            </tr>
+        </table>
+        <div class="SUPERBILL_boxs">
+            <h3>OFFICE PROCEDURE
+            </h3>
+        </div>
+        <table class="table_lines all_lines" cellspacing="0">
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Service Date</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">CPT Code</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">CPT Description</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Units</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Fee</p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.scheduleAt}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.offProcedureCptCode}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.offProcedureCptDesc}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s9" style="padding-right: 14pt;text-indent: 0pt;text-align: center;"><span th:text="${invoiceDTO.offProcedureUnits}"></span></p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.offProcedureFee}"></span></p>
+                </td>
+            </tr>
+        </table>
+
+        <table class="table_lines" cellspacing="0">
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Total Charge:</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.totalCharge}"></span></p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="">Amount Paid:</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style=""><span th:text="${invoiceDTO.totalCharge}"></span></p>
+                </td>
+            </tr>
+            <tr style="">
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s7" style="padding-top: 7pt;">Balance Due:</p>
+                </td>
+                <td style="" bgcolor="#FFFFFF">
+                    <p class="s9" style="">0.00</p>
+                </td>
+            </tr>
+        </table>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <h5 class="s15" style="">Provider Name: <span style="float: right;"> Signature</span></h5>
+        <p style="text-indent: 0pt;text-align: left;"></p>
+        <div class="footer_design">
+            <p class="s16" style="">CONTACT</p>
+            <p style=""><a href="http://www.telehealth.com/" class="a" target="_blank">345 Avon Road, Apt # E 157, Devon, PA. 19333 USA. | </a>www.telehealth.com | <span class="h4">Phone: </span>+1-205-394-5482</p>
+            <p style=""><a href="mailto:company@mail.com" style=" color: #231F20; font-family:Montserrat, serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11.5pt;" target="_blank">Email:  </a>company@mail..com | <span class="h4">Twitter:  </span>twitter/username</p>
+        </div>
+    </div>
+</body>
+
+</html>
